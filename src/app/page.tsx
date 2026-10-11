@@ -33,11 +33,11 @@ export default function LandingPage() {
                   ReLoop
                 </span>
                 <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-forest-100 text-forest-800 font-semibold">
-                  HACKATHON MVP
+                  LIVE DEMO
                 </span>
               </div>
               <span className="text-[10px] text-charcoal-500 font-medium block">
-                Team GreenStack • DTU
+                Circular Resource Intelligence
               </span>
             </div>
           </Link>
@@ -79,7 +79,7 @@ export default function LandingPage() {
       <section className="pt-12 sm:pt-20 pb-16 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto text-center space-y-6">
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-forest-50 border border-forest-100 text-xs text-forest-800 font-medium">
           <Leaf className="w-3.5 h-3.5 text-forest-700" />
-          <span>Environmental Hacks Hackathon Submission • Developed by Team GreenStack</span>
+          <span>Circular Custody & Deterministic Matching Platform</span>
         </div>
 
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-charcoal-950 font-serif leading-[1.15]">
@@ -281,7 +281,7 @@ export default function LandingPage() {
           <div className="flex items-center gap-2">
             <span className="font-bold text-charcoal-900 font-serif">ReLoop</span>
             <span>•</span>
-            <span>Developed by Team GreenStack for Environmental Hacks</span>
+            <span>Circular Resource Intelligence & Verifiable Material Exchange</span>
           </div>
 
           <div className="flex items-center gap-4 text-xs font-medium">

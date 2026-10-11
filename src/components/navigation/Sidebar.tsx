@@ -55,7 +55,7 @@ const navItems = [
     name: 'Architecture & AWS',
     href: '/about',
     icon: Info,
-    description: 'Cloud design & GreenStack team',
+    description: 'Cloud design & diagnostics',
   },
 ];
 
@@ -91,11 +91,11 @@ function NavContent({
                   ReLoop
                 </span>
                 <span className="text-[10px] font-mono uppercase tracking-wider px-1.5 py-0.2 rounded bg-forest-100 text-forest-800 font-semibold">
-                  MVP
+                  LIVE
                 </span>
               </div>
               <p className="text-[11px] text-charcoal-500 font-medium">
-                Team GreenStack • Circular Intel
+                Circular Resource Intelligence
               </p>
             </div>
           </Link>

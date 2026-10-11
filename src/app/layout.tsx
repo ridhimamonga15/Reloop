@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'ReLoop — Circular Resource Intelligence | Team GreenStack',
+  title: 'ReLoop — Circular Resource Intelligence & Custody Platform',
   description:
     'Circular resource intelligence platform connecting colleges, offices and waste generators with certified recovery partners. Verifiable material recovery, deterministic matching and transparent environmental accounting.',
   keywords: [

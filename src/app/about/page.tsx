@@ -77,7 +77,7 @@ export default function AboutPage() {
             </div>
 
             <p className="text-xs sm:text-sm text-charcoal-700 leading-relaxed">
-              Developed by <strong>Team GreenStack</strong> for the <em>Environmental Hacks</em> hackathon. Waste generators such as universities (DTU, NSUT), commercial complexes and corporate offices regularly discard hundreds of kilograms of recyclable materials because finding verified, authorized recovery partners is fragmented.
+              Large waste generators such as university campuses, corporate parks, and commercial facilities regularly discard hundreds of kilograms of recyclable materials because finding verified, authorized recovery partners is fragmented.
             </p>
 
             <p className="text-xs sm:text-sm text-charcoal-700 leading-relaxed">
@@ -269,18 +269,18 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Team GreenStack Details */}
+          {/* Architecture & Engineering Standards */}
           <div className="bg-warm-surface border border-warm-border rounded-lg p-6 space-y-3">
             <h3 className="text-sm font-bold text-charcoal-900 font-serif">
-              About Team GreenStack
+              Platform Engineering & Standards
             </h3>
 
             <div className="p-4 rounded-md bg-warm-bg border border-warm-border text-xs space-y-2">
               <p className="text-charcoal-700 leading-relaxed">
-                <strong>Developer:</strong> Solo B.Tech IT Student Developer<br />
-                <strong>Institution:</strong> Delhi Technological University (DTU)<br />
-                <strong>Hackathon:</strong> Environmental Hacks<br />
-                <strong>Core Focus:</strong> Verifiable circular resource accounting, deterministic resource matching, and reliable AWS serverless architecture.
+                <strong>Runtime:</strong> Next.js App Router Serverless Functions on AWS<br />
+                <strong>Database:</strong> Amazon DynamoDB with Single-Table Design & Global Secondary Index<br />
+                <strong>Accounting Standards:</strong> EPA WARM v15 and CPCB statutory compliance<br />
+                <strong>Design Philosophy:</strong> Zero unverified carbon claims — chain-of-custody tracking strictly requires calibrated weighbridge verification.
               </p>
             </div>
           </div>
