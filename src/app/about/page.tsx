@@ -215,7 +215,7 @@ export default function AboutPage() {
               </span>
               <div className="font-mono text-[11px] text-charcoal-700 space-y-1">
                 <p>• <strong>Table Name:</strong> reloop-records</p>
-                <p>• <strong>Partition Key (PK):</strong> String (e.g. <code>LISTING#listing-dtu-cardboard-01</code>)</p>
+                <p>• <strong>Partition Key (PK):</strong> String (e.g. <code>LISTING#listing-cardboard-01</code>)</p>
                 <p>• <strong>Sort Key (SK):</strong> String (<code>METADATA</code>)</p>
                 <p>• <strong>Global Secondary Index (GSI1):</strong> GSI1PK (<code>CATEGORY#cardboard</code>), GSI1SK (<code>STATUS#available</code>)</p>
                 <p>• <strong>Billing Mode:</strong> PAY_PER_REQUEST (On-Demand free tier friendly)</p>

@@ -121,7 +121,7 @@ export default function LandingPage() {
         <div className="mt-8 p-3.5 rounded-lg border border-amber-200 bg-amber-50/70 text-xs text-amber-900 max-w-2xl mx-auto flex items-center justify-center gap-2">
           <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
           <span>
-            <strong>Judging Evaluation Ready:</strong> Pre-seeded with complete Delhi-NCR scenarios (DTU, NSUT, DLF CyberCity) across every workflow stage.
+            <strong>Evaluation Ready:</strong> Pre-seeded with complete institutional & corporate recovery scenarios across every workflow stage.
           </span>
         </div>
       </section>

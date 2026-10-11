@@ -322,7 +322,7 @@ export function CreateListingModal({
                 <input
                   type="text"
                   required
-                  placeholder="e.g. DTU Mechanical Workshop Yard"
+                  placeholder="e.g. Central Workshop & Loading Bay"
                   value={formData.locationName}
                   onChange={(e) => setFormData({ ...formData, locationName: e.target.value })}
                   className="w-full px-3 py-2 text-sm rounded-md border border-warm-border bg-warm-bg focus:border-forest-700 focus:bg-white focus:outline-hidden"
@@ -378,7 +378,7 @@ export function CreateListingModal({
                 <input
                   type="text"
                   required
-                  placeholder="e.g. Delhi Technological University (DTU)"
+                  placeholder="e.g. University / Tech Campus Estate Dept"
                   value={formData.ownerOrg}
                   onChange={(e) => setFormData({ ...formData, ownerOrg: e.target.value })}
                   className="w-full px-3 py-2 text-sm rounded-md border border-warm-border bg-warm-bg focus:border-forest-700 focus:bg-white focus:outline-hidden"
