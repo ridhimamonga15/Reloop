@@ -1,6 +1,5 @@
 # ReLoop — Circular Resource Intelligence
-**Developed by Team GreenStack for the Environmental Hacks Hackathon**  
-*Solo Developer: B.Tech IT Student, Delhi Technological University (DTU)*
+**Enterprise Circular Custody & Deterministic Matching Platform**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.4-153E2D?style=flat&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict-153E2D?style=flat&logo=typescript)](https://www.typescriptlang.org/)
@@ -28,7 +27,7 @@ Waste Listed ➔ Compatible Partner Found ➔ Match Accepted ➔ Pickup Schedule
 ReLoop is a circular-resource intelligence platform providing transparent, deterministic compatibility matching, multi-party custody tracking, and audit-grade environmental accounting.
 
 ### Target Users:
-1. **Waste Generators:** Universities (e.g., Delhi Technological University, NSUT), corporate technology parks (e.g., DLF CyberCity), and commercial facilities generating recyclable batches.
+1. **Waste Generators:** University campuses, large institutional complexes, corporate technology parks, and commercial facilities generating recyclable batches.
 2. **Recovery Partners:** Central Pollution Control Board (CPCB) and State Pollution Control Board (SPCB) registered e-waste recyclers, secondary scrap smelters, pulp paper mills, and material recovery facilities (MRFs).
 3. **Operations & Compliance Users:** Logistics coordinators managing vehicle schedules, weighbridge tickets, and ESG audit compliance.
 
@@ -99,7 +98,7 @@ ReLoop integrates real AWS cloud services, supporting both live cloud persistenc
      │ (If AWS Credentials Set)      │ (If Unconfigured)
      ▼                               ▼
 [ Amazon DynamoDB ]           [ In-Memory Demo Store ]
-Table: reloop-records         Realistic pre-seeded DTU/NSUT records
+Table: reloop-records         Realistic pre-seeded institutional records
 PK: LISTING#<id>              Reset anytime via 1-click UI
 SK: METADATA
 GSI1: Category & Status Index
@@ -122,8 +121,8 @@ GSI1: Category & Status Index
 ### Installation:
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/reloop-greenstack.git
-cd reloop-greenstack
+git clone https://github.com/ridhimamonga15/Reloop.git
+cd Reloop
 
 # Install dependencies
 npm install
@@ -162,7 +161,7 @@ To enable live AWS DynamoDB persistence:
 
 1. Push your repository to GitHub.
 2. Open the **AWS Management Console** and navigate to **AWS Amplify**.
-3. Click **Host web app** and connect your GitHub repository (`reloop-greenstack`).
+3. Click **Host web app** and connect your GitHub repository (`Reloop`).
 4. Select the `main` branch. Amplify will automatically detect the build settings in `amplify.yml`:
    ```yaml
    version: 1
@@ -192,7 +191,7 @@ To enable live AWS DynamoDB persistence:
 
 Judges can verify the complete end-to-end workflow in under 2 minutes:
 
-1. **Browse Listings:** Open the **Material Exchange** (`/listings`). Locate the available listing: *"Clean Corrugated Cardboard Packaging & Cartons"* (850 kg from DTU Central Stores).
+1. **Browse Listings:** Open the **Material Exchange** (`/listings`). Locate the available listing: *"Clean Corrugated Cardboard Packaging & Cartons"* (850 kg from Campus Central Stores).
 2. **Find Compatible Partners:** Click **Find Matches**. Observe the deterministic score breakdown. Partner *EcoPaper Recyclers* scores 97/100 due to matching material, intake batch capacity (200-15,000 kg), and Rohini zone proximity.
 3. **Accept Match:** Click **Accept Match**. The status transitions to `Matched`.
 4. **Schedule Pickup:** In the modal, select tomorrow's pickup date and confirm. The status updates to `Pickup Scheduled`.
@@ -216,15 +215,14 @@ Judges can verify the complete end-to-end workflow in under 2 minutes:
 
 ## 11. Future Roadmap
 
-- **Multi-tenant SSO:** Institutional authentication for college estate offices via Amazon Cognito.
+- **Multi-tenant SSO:** Institutional authentication for estate offices via Amazon Cognito.
 - **Automated Weighbridge OCR:** Integration with Amazon Textract to automatically scan physical weighbridge slips.
 - **Route Optimization:** Multi-depot routing using Amazon Location Service for municipal aggregation vehicles.
 
 ---
 
-## Team & Credits
+## License & Specifications
 
-- **Developer:** Solo B.Tech IT Student Developer
-- **Institution:** Delhi Technological University (DTU)
-- **Team Name:** GreenStack
-- **Hackathon:** Environmental Hacks
+- **License:** MIT License
+- **Runtime:** Next.js 16 (App Router) Serverless Functions
+- **Cloud Infrastructure:** AWS Amplify Hosting & Amazon DynamoDB
