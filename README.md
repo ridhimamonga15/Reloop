@@ -221,8 +221,9 @@ Judges can verify the complete end-to-end workflow in under 2 minutes:
 
 ---
 
-## License & Specifications
+## Author & Specifications
 
+- **Developer:** Ridhima Monga (B.Tech IT)
 - **License:** MIT License
 - **Runtime:** Next.js 16 (App Router) Serverless Functions
 - **Cloud Infrastructure:** AWS Amplify Hosting & Amazon DynamoDB
