@@ -52,10 +52,10 @@ const navItems = [
     description: 'Audited carbon & diversion',
   },
   {
-    name: 'Architecture & AWS',
+    name: 'System Architecture',
     href: '/about',
     icon: Info,
-    description: 'Cloud design & diagnostics',
+    description: 'Cloud topology & diagnostics',
   },
 ];
 

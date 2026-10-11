@@ -68,7 +68,7 @@ export default function AboutPage() {
               </span>
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-forest-800">
-                  Project Brief & Hackathon Entry
+                  System Specifications & Overview
                 </span>
                 <h2 className="text-lg font-bold text-charcoal-950 font-serif">
                   ReLoop: Circular Resource Intelligence
@@ -146,14 +146,14 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Beginner-friendly explanation */}
+            {/* Infrastructure architecture overview */}
             <div className="p-3.5 rounded-md bg-forest-50/70 border border-forest-200 text-xs text-forest-950 space-y-1">
               <span className="font-semibold block">
-                Understanding AWS Hosting vs AWS Data Storage (Beginner Guide)
+                AWS Cloud Infrastructure & High-Availability Design
               </span>
               <p className="text-forest-900 leading-relaxed">
-                <strong>AWS Amplify Hosting:</strong> Serves the compiled Next.js HTML/CSS/JS frontend to users over Amazon CloudFront CDN.<br />
-                <strong>Amazon DynamoDB & Serverless Routes:</strong> Stores the actual operational records (listings, pickups, certificates) in a managed NoSQL database in the cloud. If credentials are not yet added to your environment, ReLoop automatically falls back to safe local demo persistence so that judges can test every feature immediately.
+                <strong>AWS Amplify Hosting:</strong> Serves the compiled Next.js HTML/CSS/JS frontend globally over Amazon CloudFront CDN with automated SSL.<br />
+                <strong>Amazon DynamoDB & Serverless Routes:</strong> Secure serverless route handlers persist transactions with On-Demand scalability. In offline or evaluation environments without live cloud credentials, ReLoop features fault-tolerant automated fallback to local demo persistence.
               </p>
             </div>
           </div>

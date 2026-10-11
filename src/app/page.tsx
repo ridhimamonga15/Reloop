@@ -59,7 +59,7 @@ export default function LandingPage() {
               Impact Methodology
             </Link>
             <Link href="/about" className="hover:text-forest-800 transition-colors">
-              AWS Cloud Architecture
+              System Architecture
             </Link>
           </nav>
 
@@ -298,7 +298,7 @@ export default function LandingPage() {
               Impact Disclosures
             </Link>
             <Link href="/about" className="hover:text-forest-800">
-              AWS Spec
+              Architecture
             </Link>
           </div>
         </div>
